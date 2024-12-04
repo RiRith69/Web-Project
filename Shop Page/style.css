@@ -161,10 +161,15 @@
     flex-direction: column;
     gap: 7px;
   }
-  .item-specific img {
-    width: 200px;
+  .item-pieces img {
+    width: 150px;
     border-radius: 8px;
   }
   .item-specific p {
     text-align: center;
+  }
+  .item-pieces {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
   }
