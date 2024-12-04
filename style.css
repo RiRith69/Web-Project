@@ -26,8 +26,8 @@ body {
 }
 .nav_header ul li a {
   text-decoration: none;
-  color: black;
   position: relative;
+  color: black;
   padding: 5px 0;
 }
 .nav_header ul li a::before {
@@ -37,18 +37,34 @@ body {
   bottom: 0;
   height: 3px;
   width: 100%;
-  background: green;
+  background: #f4f4f4;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s linear;
+  border-radius: 7px;
 }
 .nav_header ul li a:hover::before {
   transform: scaleX(1);
   transform-origin: left;
 }
-
-.nav_header ul li a:hover {
-  color: #003377;
+.nav_header ul .active {
+  border-radius: 7px;
+  background-color: #007bff;
+  color: #f4f4f4;
+  a {
+    color: #f4f4f4;
+  }
+}
+.nav_header ul .link-icons:hover {
+  border-radius: 7px;
+  background-color: #007bff;
+  color: #f4f4f4;
+  a {
+    color: #f4f4f4;
+  }
+  .icon {
+    filter: brightness(0) invert(1);
+  } 
 }
 
 .icon {
@@ -56,6 +72,7 @@ body {
 }
 
 .icon_logo {
+  border-radius: 90%;
   margin: auto;
   width: 90px;
   margin-top: -25px;
