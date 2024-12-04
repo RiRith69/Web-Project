@@ -130,10 +130,41 @@
     background-color: #f4f4f4;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     padding: 15px;
+  }
+  .item-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 50px;
   }
   .item-pic img {
     width: 400px;
     border-radius: 8px;
+  }
+  .moment-price {
+    color: red;
+    font-size: 1.4em;
+  }
+  .ori-price {
+    font-size: 1em;
+    text-decoration: line-through;
+    opacity: 60%;
+  }
+  h3 {
+    font-size: 2em;
+  }
+  .item-specific {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .item-specific img {
+    width: 200px;
+    border-radius: 8px;
+  }
+  .item-specific p {
+    text-align: center;
   }
