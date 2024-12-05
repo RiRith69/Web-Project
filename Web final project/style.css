@@ -25,7 +25,7 @@ body {
 }
 .nav_header ul li a {
   text-decoration: none;
-  color: #555555;
+  color: black;
   position: relative;
   padding: 5px 0;
 }
