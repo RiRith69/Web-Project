@@ -55,6 +55,11 @@ body {
     color: #f4f4f4;
   }
 }
+.link-icons {
+  box-sizing: border-box;
+  width: fit-content;
+  padding: 15px;
+}
 .nav_header ul .link-icons:hover {
   border-radius: 7px;
   background-color: #007bff;
@@ -244,4 +249,8 @@ section {
 .qr_code {
   height: 200px;
   width: auto;
+}
+.card-links {
+  text-decoration: none;
+  color: black;
 }
