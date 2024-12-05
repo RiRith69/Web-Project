@@ -58,7 +58,6 @@ body {
 .link-icons {
   box-sizing: border-box;
   width: fit-content;
-  padding: 15px;
 }
 .nav_header ul .link-icons:hover {
   border-radius: 7px;
@@ -79,7 +78,7 @@ body {
 .icon_logo {
   border-radius: 90%;
   margin: auto;
-  width: 90px;
+  width: 80px;
   margin-top: -25px;
 }
 .nav_header {

@@ -27,7 +27,7 @@ body {
   text-decoration: none;
   color: black;
   position: relative;
-  padding: 5px 0;
+  padding: 5px;
 }
 .nav_header ul li a::before {
   position: absolute;
@@ -65,9 +65,10 @@ body {
 }
 
 .icon_logo {
+  border-radius: 90%;
   margin: auto;
-  width: 125px;
-  margin-top: -30px;
+  width: 80px;
+  margin-top: -25px;
 }
 .nav_header {
   margin: auto;
