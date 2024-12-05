@@ -53,6 +53,14 @@ body {
   color: white;
   background-color: blue;
 }
+.nav_header ul .active {
+  border-radius: 7px;
+  background-color: #007bff;
+  color: #f4f4f4;
+  a {
+    color: #f4f4f4;
+  }
+}
 
 .icon {
   width: 25px;
