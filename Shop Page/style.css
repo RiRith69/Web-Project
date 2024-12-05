@@ -173,3 +173,56 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
   }
+  .size {
+    opacity: 60%;
+  }
+  .btn {
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+  }
+  .size-btn, .quantity-btn {
+    box-sizing: border-box;
+    width: 55px;
+    height: 25px;
+    cursor: pointer;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+  .size-btn:hover {
+    background-color: #007bff;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+  }
+  .quantity-btn:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  .active {
+    box-sizing: border-box;
+    width: 55px;
+    height: 25px;
+    background-color: #007bff;
+    color: #f4f4f4;
+    border: none;
+    border-radius: 5px;
+  }
+  .bag-btn {
+    box-sizing: border-box;
+    width: 330px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .bag-btn:hover {
+    background-color: #f4f4f4;
+    color: #333;
+    border: 1px solid #333;
+  }
