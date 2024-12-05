@@ -26,7 +26,7 @@ body {
 }
 .nav_header ul li a {
   text-decoration: none;
-  color: #555555;
+  color: black;
   position: relative;
   padding: 5px 0;
 }
@@ -37,7 +37,7 @@ body {
   bottom: 0;
   height: 3px;
   width: 100%;
-  background: #003377;
+  background: red;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s linear;
@@ -48,7 +48,8 @@ body {
 }
 
 .nav_header ul li a:hover {
-  color: #003377;
+  color: white;
+  background-color: blue;
 }
 
 .icon {
