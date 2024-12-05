@@ -223,8 +223,6 @@ section {
 }
 .info_bot {
   box-sizing: border-box;
-  color: #fff;
-  background-color: #007bff;
   padding: 20px;
   border: 1px solid green;
   width: 100%;
