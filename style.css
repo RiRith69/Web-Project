@@ -41,7 +41,7 @@ body {
   bottom: 0;
   height: 3px;
   width: 100%;
-  background: #f4f4f4;
+  background: red;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s linear;
@@ -60,7 +60,6 @@ body {
 .link-icons {
   box-sizing: border-box;
   width: fit-content;
-  padding: 15px;
 }
 .nav_header ul .link-icons:hover {
   background-color: #003060;
@@ -79,7 +78,12 @@ body {
 
 .icon_logo {
   margin: auto;
+<<<<<<< HEAD
   width: 120px;
+=======
+  width: 80px;
+  margin-top: -25px;
+>>>>>>> 779cd2af743644d90930e111a3d74cf8e07055e1
 }
 .nav_header {
   margin: auto;
@@ -126,7 +130,7 @@ body {
 @media (max-width: 1300px) {
   .icon_logo {
     width: 100px;
-    padding-left: 50px;
+    padding-left: 60px;
   }
   .nav_header ul li a {
     font-size: 1.8rem;

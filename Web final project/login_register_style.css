@@ -49,7 +49,15 @@ body {
 
 .nav_header ul li a:hover {
   color: white;
-  background-color: blue;
+  background-color: #007bff;
+}
+.nav_header ul .active {
+  border-radius: 7px;
+  background-color: #007bff;
+  color: #f4f4f4;
+  a {
+    color: #f4f4f4;
+  }
 }
 
 .icon {
@@ -210,7 +218,7 @@ body {
   font-size: x-large;
   border-radius: 3px;
   margin-top: 10px;
-  background-color: blue;
+  background-color: #007bff;
   color: white;
   cursor: pointer;
   height: 40px;
