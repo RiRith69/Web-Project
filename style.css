@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
 }
 body {
   background-color: white;
@@ -17,11 +18,14 @@ body {
   height: 200vh;
   margin-bottom: 30px;
 }
+.nav_header {
+  background-color: #dfd356;
+  color: #333;
+}
 .nav_header ul li {
   list-style: none;
-  font-size: x-large;
+  font-size: 1.6rem;
   margin: 15px;
-  margin-top: 40px;
   cursor: pointer;
 }
 .nav_header ul li a {
@@ -41,18 +45,16 @@ body {
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.4s linear;
-  border-radius: 7px;
 }
 .nav_header ul li a:hover::before {
   transform: scaleX(1);
   transform-origin: left;
 }
 .nav_header ul .active {
-  border-radius: 7px;
-  background-color: #007bff;
-  color: #f4f4f4;
+  background-color: #003060;
+  color: #fff;
   a {
-    color: #f4f4f4;
+    color: #fff;
   }
 }
 .link-icons {
@@ -61,37 +63,46 @@ body {
   padding: 15px;
 }
 .nav_header ul .link-icons:hover {
-  border-radius: 7px;
-  background-color: #007bff;
-  color: #f4f4f4;
+  background-color: #003060;
+  color: #fff;
   a {
-    color: #f4f4f4;
+    color: #fff;
   }
   .icon {
     filter: brightness(0) invert(1);
   }
 }
-
 .icon {
-  width: 25px;
+  width: 20px;
+  height: auto;
 }
 
 .icon_logo {
-  border-radius: 90%;
   margin: auto;
-  width: 90px;
-  margin-top: -25px;
+  width: 120px;
 }
 .nav_header {
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
+.search_bar {
+  background-color: #dfd356;
+  border: 2px solid #333;
+  height: 30px;
+  font-size: 1.6rem;
+}
+.search_bar::placeholder{
+  color: #333;
+}
 @media screen and (max-width: 1800px) {
   .nav_header ul li {
     margin: auto;
     padding: 10px;
-    font-size: large;
+    font-size: 3.2rem;
+  }
+  .nav_header ul li a {
+    font-size: 2.2rem;
   }
   .icon_logo {
     margin: auto;
@@ -103,11 +114,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.search_bar {
-  height: 30px;
-  border-radius: 5px;
-  font-size: large;
-}
 .nav_img {
   width: 100%;
 }
@@ -117,13 +123,13 @@ body {
 #check {
   display: none;
 }
-@media (max-width: 1500px) {
+@media (max-width: 1300px) {
   .icon_logo {
     width: 100px;
     padding-left: 50px;
   }
   .nav_header ul li a {
-    font-size: 16px;
+    font-size: 1.8rem;
     margin-left: auto;
   }
 }
@@ -137,8 +143,7 @@ section {
 .content-header {
   box-sizing: border-box;
   padding: 20px;
-  display: grid;
-  grid-template-columns: 4fr 1fr;
+  display: flex;
   background-color: #f4f4f4;
   height: 80px;
   width: 100%;
@@ -146,25 +151,35 @@ section {
 }
 
 .special-event {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: start;
 }
 
 .shop-now {
   width: 100px;
   height: 40px;
   align-self: center;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #dfd356;
+  color: #333;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 1.4rem;
+  flex-grow: 0;
+  margin-right: 3%;
+}
+h3 {
+  font-size: 2.2rem;
+}
+p {
+  font-size: 1.8rem;
 }
 
 .shop-now:hover {
-  background-color: #0056b3;
+  background-color: #003060;
+  color: #fff;
 }
 
 .content-header h3 {
@@ -198,13 +213,13 @@ section {
   grid-column: 2 span;
   width: 100%;
   height: auto;
-  border-radius: 8px;
 }
 .moment-price {
   color: red;
+  font-size: 1.8rem;
 }
 .ori-price {
-  font-size: 0.8em;
+  font-size: 1.4rem;
   text-decoration: line-through;
 }
 .card {
@@ -215,7 +230,7 @@ section {
   border: none;
   background: none;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 2.4rem;
   width: 30px;
   height: 30px;
   box-sizing: border-box;
